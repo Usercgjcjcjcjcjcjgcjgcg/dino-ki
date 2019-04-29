@@ -9,12 +9,14 @@ Example:
     if should_jump:
         kt.trigger_up()
 """
+import pyautogui
 
 
 class KeyTrigger(object):
-
-    def __init__(self):
-        raise NotImplementedError
-
+    
     def trigger_up(self):
-        raise NotImplementedError
+        # here the 'up-arrow' will be triggered (only once)
+        pyautogui.press("up")
+        
+
+
