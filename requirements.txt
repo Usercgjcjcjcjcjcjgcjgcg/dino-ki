@@ -1,0 +1,7 @@
+pyautogui
+Pillow
+numpy
+pytesseract
+matplotlib
+python3_xlib
+mss
